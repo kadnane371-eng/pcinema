@@ -1,34 +1,73 @@
-<!Doctype html
+<!Doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CinèpleinAir</title>
 </head>
-<body>
+<body> 
+
    <header>
        <nav>
         <h2>CinèpleinAir</h2>
            <ul>
                <li><a href="#hero">Acceuil</a></li>
                <li><a href="#about">À propos</a></li>
-               <li><a href="#program">Programme</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#Films">Films</a></li>
+               <li><a href="#programme">Programme</a></li>
+                <li><a href="#films">Films</a></li>
+                <li><a href="#Localisation">Localisation</a></li>
+                <ul id="nav-links"></ul>
            </ul>
          </nav>
    </header>
+
    <section id="hero">
        <h1>CinèpleinAir Festival</h1>
        <p>Du 17 au 19 Juillet</p>
        <p>Parc urbain BeniMellal</p>
+       <button>Voir Le Programme</button>
    </section>
+
     <section id="about">
          <h2>À propos</h2>
-         <p>Le festival de cinéma en plein air unique à BeniMellal.
-            pendant trois jours,profitez de projections de films cultes,d'atelier et d'une ambiance musicale. 
+         <p>Le festival de cinéma est un événement unique à Béni Mellal.
+            pendant trois jours,profitez de projections de films cultes en plein air,
+            de Rencontre avec des réalisateurs. d'ateliers de critique cinématographique
+            et d'une ambiance festive avec foodtrucks et musique. 
          </p>
+        </section>
+
+     <section id="programme">
+        <h2>Programme</h2>
+
+        <h3>Jour 1 - 17</h3>
+        <p>18:00 - Ouverture du festival</p>
+        <p>23:00 - projection Film 1</p>
+
+        <h3>Jour 2 - 18 </h3>
+         <p>18:00 - Atelier cinéma</p>
+         <p>23:00 - projection Film 2</p>
+
+         <h3>Jour 3 - 19 </h3>
+         <p>18:00 - Rencontre avec réalisateur </p>
+         <p>21:00 - Projection Film 3 + cloture</p>
+     </section>
+
+     <section id="films">
+        <h2>Films</h2>
+        <div id="films-container"></div>
+        
+     </section>
+    
+     <section id="Localisation">
+       <h2>Localisation</h2>
+       <p>Parc Urbain, Béni Mellal</p>
      </section>
      
+     <footer>
+        <p>© 2026 CinépleinAir - Tous droits réservés</p>
+     </footer>
+     <script src="script.js"></script>
+</body>
 </html>
